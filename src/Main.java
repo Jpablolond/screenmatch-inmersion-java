@@ -40,7 +40,8 @@ public class Main {
                 double notaMatrix = teclado.nextDouble();
                 mediaEvaluacionUsuario += notaMatrix;
             }
-            System.out.println("La media de la película Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
+            System.out.println("La media de la película" +
+                    "Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
         }
     }
 }
